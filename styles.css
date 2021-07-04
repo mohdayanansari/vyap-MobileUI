@@ -175,7 +175,7 @@ hr{
 
 /* Customer Card */
 .card-main-container{
-    height: 334px;
+    height: 350px;
     /* background-color: red; */
     overflow-y:auto;
 
@@ -282,7 +282,7 @@ background: #3f4694;
     bottom: 100px;
     right: 10px;
 
-    width:150px;
+    width:130px;
     height:45px;
     border:none;
     border-radius: 10px;
