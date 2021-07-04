@@ -21,9 +21,9 @@ Mobile Body
     max-width: 450px;
     max-height: 100vh;
     width: 450px;
-    height: 80vh;
+    height: 90vh;
 
-    /* background-color: aqua; */
+    background-color: aqua;
 }
 
 /* 
@@ -279,7 +279,7 @@ background: #3f4694;
 .add-cutomer-btn{
     font-family: 'Open Sans', sans-serif;
     position: absolute;
-    bottom: 150px;
+    bottom: 100px;
     right: 10px;
 
     width:150px;
