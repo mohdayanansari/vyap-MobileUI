@@ -35,7 +35,7 @@ Header
     display: flex;
     background-color: #012875;
     align-items: flex-start;
-    height: 170px;
+    height: 150px;
     padding: 30px 30px 0 30px;
 }
 
@@ -78,7 +78,7 @@ nav-top
 .nav-top-main{
     display: flex;
     justify-content: center;
-    margin-top: -75px;
+    margin-top: -60px;
 }
 .nav-top-container{
     display: flex;
@@ -86,20 +86,21 @@ nav-top
     align-items: center;
     border-radius: 20px;
     width: 90%;
-    height: 150px;
+    height: 120px;
 
     background-color: #ffffffff;
 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
-.nav-top-icon{
-    width: 40px;
-}
+
 .product{
-    width: 50px;
+    width: 42px;
 }
 .cart{
-    width: 47px;
+    width: 38px;
+}
+.report{
+    width: 35px;
 }
 .nav-top-caption{
     font-family: 'Open Sans', sans-serif;
@@ -112,7 +113,7 @@ nav-top
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    gap: 5px;
+    gap: 10px;
 }
 .nav-top-child-1, .nav-top-child-2{
     border-right: 2px solid rgb(224, 224, 224);
@@ -331,9 +332,11 @@ background: #3f4694;
     bottom: 0px;
     display: flex;
     width: 450px;
-    height: 70px;
+    padding-top: 10px;
+    height: 60px;
     justify-content: center;
     align-items: center;
+    /* border-radius: 20px 20px 0px 0px; */
 
     background-color: #ffffff;
     box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.09);
@@ -346,9 +349,9 @@ background: #3f4694;
     text-align: center;
 }
 .home-icon{
- width: 30px;
+ width: 25px;
 }
 .more-icon{
-    width: 55px;
-    margin-bottom: 5px;
+    width: 35px;
+    margin-bottom: 8px;
 }
