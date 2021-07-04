@@ -17,6 +17,7 @@ Mobile Body
 ==============
 */
 .mobile-main{
+    position: relative;
     max-width: 450px;
     max-height: 100vh;
     width: 450px;
@@ -176,6 +177,14 @@ hr{
     overflow-y:auto;
 
 }
+.scrollDes::-webkit-scrollbar {
+    width: 0px;
+    
+}
+/* .scrollDes::-webkit-scrollbar-thumb {
+border-radius: 20px;
+background: #3f4694;
+} */
 .card-main{
     display: flex;
     width: 100%;
@@ -313,7 +322,7 @@ hr{
     position: fixed;
     bottom: 0px;
     display: flex;
-    width: 100%;
+    width: 450px;
     height: 70px;
     justify-content: center;
     align-items: center;
