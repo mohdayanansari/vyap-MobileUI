@@ -46,8 +46,8 @@ Header
     gap: 10px;
 }
 .head-right img{
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 }
 .head-right h1{
     font-family: 'Open Sans', sans-serif;
@@ -125,12 +125,13 @@ nav-top
     justify-content: center;
     /* background-color: red; */
 }
+/*
 .customer-container{
     display: flex;
     flex-direction: column;
     width: 90%;
     gap: 3px;
-    /* background-color: yellow; */
+    background-color: yellow;
 }
 .customer-container h3{
     font-family: 'Open Sans', sans-serif;
@@ -143,6 +144,7 @@ hr{
     background-color: #222222;
     border: none;
 }
+*/
 #input_container {
     display: flex;
     margin-top: 10px;
@@ -227,12 +229,18 @@ background: #3f4694;
 .card-child-2{
     flex-direction: column;
     width: 60%;
+    gap: 5px;
 }
 .card-child-2 h2 h5{
     font-family: 'Open Sans', sans-serif;
 }
+.card-child-2 h2{
+    font-size: 18px;
+    font-weight: 800;
+}
 .card-child-2  h5{
     font-weight: 400;
+    font-size: 12px;
 }
 .card-child-3{
  flex-direction: column;
@@ -244,12 +252,12 @@ background: #3f4694;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 40px;
-    font-size: 1.2rem;
+    width: 45px;
+    height: 30px;
+    font-size: 0.9rem;
     color: #ffffffff;
     background-color: #012875;
-    border-radius: 15px;
+    border-radius: 12px;
 }
 .card-time{
     display: flex;
