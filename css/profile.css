@@ -37,7 +37,12 @@ Mobile Body
 .profile-icon {
   width: 80px;
 }
-
+.top-container h2{
+    color: #012875;
+}
+.top-container h5{
+    font-weight: 500;
+}
 /* card-1 */
 .cards-container {
   display: flex;
@@ -77,7 +82,7 @@ Mobile Body
 .links {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 600;
   text-decoration: none;
   color: #222222;
 }
@@ -130,7 +135,7 @@ Mobile Body
     width: 50%;
     text-align: center;
 }
-.home-icon, .store-icon{
+.home-icon{
  width: 25px;
 }
 .more-icon{
