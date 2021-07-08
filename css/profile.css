@@ -23,7 +23,7 @@ Mobile Body
   width: 450px;
   height: 100vh;
 
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 /* Profile top container */
 .top-container {
@@ -124,15 +124,17 @@ Mobile Body
 }
 .nav-bottom-child-1, .nav-bottom-child-2{
     display: flex;
+    position: relative;
     justify-content: center;
     align-items:center;
     width: 50%;
     text-align: center;
 }
-.home-icon{
+.home-icon, .store-icon{
  width: 25px;
 }
 .more-icon{
+    position: relative;
     width: 35px;
-    margin-bottom: 8px;
+    top: 0px;
 }
