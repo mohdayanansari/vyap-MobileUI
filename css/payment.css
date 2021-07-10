@@ -72,11 +72,11 @@ Mobile Body
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
   width: 20%;
 }
 .header-col-3 img {
-  width: 18px;
+  width: 22px;
 }
 /* Header End */
 
@@ -87,7 +87,7 @@ Mobile Body
   width: 100%;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 50px;
 
   background-color: #ffffff;
 }
@@ -100,7 +100,7 @@ Mobile Body
   background-color: #012875;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   width: 85%;
-  height: 25px;
+  height: 35px;
 }
 .heading h1 {
   font-family: "Open Sans", sans-serif;
@@ -115,7 +115,7 @@ Mobile Body
   align-items: center;
   border-radius: 10px;
   width: 30%;
-  height: 25px;
+  height: 35px;
   border: none;
   gap: 5px;
   cursor: pointer;
@@ -134,8 +134,8 @@ Mobile Body
   width: 100%;
   gap: 20px;
   overflow-y: auto;
-  height: calc(100vh - 300px);
-  padding: 5px 15px 5px 15px;
+  height: calc(100vh - 400px);
+  padding: 10px 15px 5px 15px;
   
   
   /* background-color: greenyellow; */
@@ -213,10 +213,11 @@ Mobile Body
   justify-content: center;
   align-items: center;
   width: 70px;
-  height: 18px;
+  height: 20px;
   border-radius: 5px;
   background-color: #fd9816;
   color: #ffffff;
+  font-size: 1.2rem;
 }
 
 .right-col-2 {
@@ -232,7 +233,7 @@ Mobile Body
   justify-content: flex-end;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-size: 8px;
+  font-size: 10px;
   z-index: 1;
 }
 .col-2-row-3 {
@@ -305,7 +306,7 @@ Mobile Body
   justify-content: flex-start;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-size: 8px;
+  font-size: 10px;
   z-index: 2;
 }
 .col-2-row-3-left {
@@ -340,8 +341,9 @@ Mobile Body
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70px;
-  height: 18px;
+  width: 80px;
+  height: 20px;
+  font-size: 1.2rem;
   border-radius: 5px;
   background-color: #4ae406;
   color: #ffffff;
