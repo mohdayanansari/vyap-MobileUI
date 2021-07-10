@@ -134,7 +134,7 @@ Mobile Body
   width: 100%;
   gap: 20px;
   overflow-y: auto;
-  height: calc(100vh - 400px);
+  height: calc(100vh - 350px);
   padding: 10px 15px 5px 15px;
   
   
