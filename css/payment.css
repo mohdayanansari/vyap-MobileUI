@@ -244,7 +244,7 @@ Mobile Body
   font-family: "Open Sans", sans-serif;
   font-size: 10px;
   align-items: flex-end;
-  margin-top: 15px;
+  margin-top: 11px;
   font-weight: 700;
 }
 /*! Right-Container-Card Ends */
@@ -317,7 +317,7 @@ Mobile Body
   font-family: "Open Sans", sans-serif;
   font-size: 10px;
   align-items: flex-end;
-  margin-top: 15px;
+  margin-top: 11px;
   font-weight: 700;
 }
 .left-col-2 {
@@ -362,15 +362,16 @@ Mobile Body
 }
 .btn-b{
     display: flex;
+    position: sticky;
     justify-content: center;
     align-items: center;
     background-color: #012875;
-    width:120px;
+    width:140px;
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     gap: 8px;
-    height:35px;
+    height:50px;
     border: none;
     cursor: pointer;
     transition: 0.1s;
