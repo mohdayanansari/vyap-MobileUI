@@ -88,7 +88,8 @@ Mobile Body
   justify-content: center;
   align-items: center;
   height: 50px;
-
+  margin: 10px 0 10px 0px;
+    font-size: 1.2rem;
   background-color: #ffffff;
 }
 .heading {
@@ -366,9 +367,9 @@ Mobile Body
     width:120px;
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     gap: 8px;
-    height:30px;
+    height:35px;
     border: none;
     cursor: pointer;
     transition: 0.1s;
