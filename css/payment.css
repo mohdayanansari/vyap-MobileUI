@@ -444,6 +444,9 @@ Mobile Body
 .drop-2{
   text-indent: 43%;
 }
+.drop-3{
+  text-indent:5%;
+}
 textarea {
   position: relative;
   width: 100%;
@@ -451,7 +454,7 @@ textarea {
   padding: 10px 10px 0 10px;
   border: 2px solid #dbdbdb;
   border-radius: 10px;
-  outline: none;S
+  outline: none;
 }
 .save-btn{
   display: flex;
